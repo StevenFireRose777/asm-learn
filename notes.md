@@ -15,4 +15,13 @@
   -Location of execution
   -Not a register, can't change it normally
   -Only changed by jump operations
-  
+
+-Jump Comparisons:
+  je = jump if equal
+  jne = jump if not equal
+  jg = jump if greater
+  jge = jump if greater or equal to
+  jl = jump if less than
+  jle = jump if less than or equal to
+
+  syntax ex: je A, B 
