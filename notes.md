@@ -25,3 +25,12 @@
   jle = jump if less than or equal to
 
   syntax ex: je A, B 
+
+-section .data
+  ; db = 1 byte (considered char)
+  ; dw = 2 byte (considered short)
+  ; dd = 4 bytes (considered int)
+  ex:
+  name1 db "Hi"
+  name2 dw 1000
+  name3 dd 10000
