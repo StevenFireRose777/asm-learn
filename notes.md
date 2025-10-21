@@ -10,13 +10,13 @@
   - Stack Pointer = the adjustable thing that allows to add and delete stuff from a program
   ^Stack ptr is a register also^
 
--Instruction Ptr:
+- Instruction Ptr:
   -Known as EIP
   -Location of execution
   -Not a register, can't change it normally
   -Only changed by jump operations
 
--Jump Comparisons:
+- Jump Comparisons:
   je = jump if equal
   jne = jump if not equal
   jg = jump if greater
@@ -26,7 +26,7 @@
 
   syntax ex: je A, B 
 
--section .data
+- section .data
   ; db = 1 byte (considered char)
   ; dw = 2 byte (considered short)
   ; dd = 4 bytes (considered int)
@@ -34,3 +34,4 @@
   name1 db "Hi"
   name2 dw 1000
   name3 dd 10000
+
