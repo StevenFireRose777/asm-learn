@@ -11,27 +11,27 @@
   ^Stack ptr is a register also^
 
 - Instruction Ptr:
-  -Known as EIP
-  -Location of execution
-  -Not a register, can't change it normally
-  -Only changed by jump operations
+  - Known as EIP
+  - Location of execution
+  - Not a register, can't change it normally
+  - Only changed by jump operations
 
 - Jump Comparisons:
-  je = jump if equal
-  jne = jump if not equal
-  jg = jump if greater
-  jge = jump if greater or equal to
-  jl = jump if less than
-  jle = jump if less than or equal to
+  - je = jump if equal
+  - jne = jump if not equal
+  - jg = jump if greater
+  - jge = jump if greater or equal to
+  - jl = jump if less than
+  - jle = jump if less than or equal to
 
-  syntax ex: je A, B 
+  - syntax ex: je A, B 
 
 - section .data
-  ; db = 1 byte (considered char)
-  ; dw = 2 byte (considered short)
-  ; dd = 4 bytes (considered int)
-  ex:
-  name1 db "Hi"
-  name2 dw 1000
-  name3 dd 10000
+  - ; db = 1 byte (considered char)
+  - ; dw = 2 byte (considered short)
+  - ; dd = 4 bytes (considered int)
+  - ex:
+  -  name1 db "Hi"
+  -  name2 dw 1000
+  -  name3 dd 10000
 
