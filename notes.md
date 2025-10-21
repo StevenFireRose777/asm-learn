@@ -35,3 +35,8 @@
   -  name2 dw 1000
   -  name3 dd 10000
 
+- Stack
+  - The data structure that last for the entire program
+  - Actually an array
+  - Stack ptr (register)
+  - Does have random access
